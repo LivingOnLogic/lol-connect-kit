@@ -1,13 +1,13 @@
-# 🔌 lol-connect-kit
+# 🔌 buy-connect-kit
 
-**Connect UI and wallet integration layer** for Living On Logic applications.  
+**Connect UI and wallet integration layer**
 Provides secure, themeable, and modular connection components for MCP-aware dApps.
 
 ---
 
 ## ✨ Overview
 
-`lol-connect-kit` is a headless React toolkit for authenticating users and agents to Living On Logic-enabled applications. It manages:
+`buy-connect-kit` is a headless React toolkit for authenticating users. It manages:
 
 - Wallet connection (EVM, injected, mobile)
 - MCP-aware session context
@@ -53,13 +53,13 @@ Provides secure, themeable, and modular connection components for MCP-aware dApp
 ### Install
 
 ```bash
-npm install lol-connect-kit
+npm install buy-connect-kit
 ```
 
 ### In your app:
 
 ```tsx
-import { MCPProvider, ConnectButton } from "lol-connect-kit";
+import { MCPProvider, ConnectButton } from "buy-connect-kit";
 
 <MCPProvider>
   <ConnectButton />
@@ -81,8 +81,8 @@ You can override styles via Tailwind classes or pass in your own modal content w
 ## 🧪 Dev Setup
 
 ```bash
-git clone https://github.com/LivingOnLogic/lol-connect-kit.git
-cd lol-connect-kit
+git clone https://github.com/buyproject/buy-connect-kit.git
+cd buy-connect-kit
 npm install
 npm run dev
 ```
