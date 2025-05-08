@@ -1,5 +1,5 @@
 {
-  "name": "@lol/connect-kit",
+  "name": "@buy/connect-kit",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
